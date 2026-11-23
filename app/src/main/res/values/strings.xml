@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">byhantools</string>
+    <string name="app_subtitle">أدوات تصفير معرفات خدمات Google وبيئة العمل المعزولة</string>
+    
+    <!-- Header status -->
+    <string name="status_title">معلومات بصمة الجهاز الحالية</string>
+    <string name="device_model">الجهاز:</string>
+    <string name="android_version">إصدار أندرويد:</string>
+    <string name="android_id">معرّف Android ID:</string>
+    <string name="gsf_id">معرّف GSF ID:</string>
+    <string name="network_status">نوع الشبكة الحالية:</string>
+    <string name="net_wifi">Wi-Fi (يُفضل التحويل للبيانات)</string>
+    <string name="net_mobile">بيانات الهاتف (ممتاز وموثوق)</string>
+    <string name="net_none">غير متصل بالإنترنت</string>
+    <string name="copy">نسخ</string>
+    <string name="copied_to_clipboard">تم النسخ إلى الحافظة</string>
+
+    <!-- Island 6.4.2 Integration Section -->
+    <string name="island_section_header">💎 التطبيق المدمج النهائي (عزل شامل)</string>
+    <string name="island_section_subheader">تطبيق مدمج بالكامل لتشغيل بيئة عمل معزولة وتخطي طلب رقم الهاتف</string>
+    <string name="island_integration_title">🏝️ تطبيق Island 6.4.2 (مدمج داخلياً)</string>
+    <string name="island_status_label">حالة Island:</string>
+    <string name="island_status_installed">مثبت على جهازك وجاهز للاستخدام ✅</string>
+    <string name="island_status_installed_version">مثبت على جهازك وجاهز للاستخدام ✅ (الإصدار: %1$s)</string>
+    <string name="island_status_not_installed">غير مثبت (جاهز للتثبيت بضغطة زر أوفلاين) 📥</string>
+    <string name="island_integration_desc">تم دمج تطبيق Island 6.4.2 بالكامل داخل هذا التطبيق في نهاية الصفحة! يتيح لك تشغيل بيئة عمل معزولة (Work Profile)، وتجميد التطبيقات، واستنساخ متجر Google Play وخدمات Google كأنها على هاتف منفصل تماماً لتخطي طلب رقم الهاتف على جميع أجهزة أندرويد المدعومة.</string>
+    <string name="btn_install_island">📥 تثبيت Island 6.4.2 المدمج (تلقائي)</string>
+    <string name="btn_launch_island">🚀 تشغيل وتجهيز بيئة Island الآن</string>
+    <string name="btn_reinstall_island">🔄 إعادة تثبيت أو تحديث حزمة Island</string>
+    <string name="btn_export_island">💾 استخراج وحفظ Island.apk في Downloads (يدوي)</string>
+    <string name="btn_open_island_settings">⚙️ فتح إعدادات وصلاحيات Island</string>
+    <string name="island_installing">جارٍ استخراج وتجهيز حزمة Island 6.4.2 المدمجة...</string>
+    <string name="island_install_error">حدث خطأ أثناء فتح ملف التثبيت: </string>
+    <string name="island_compat_warning_title">تنبيه توافق الإصدار</string>
+    <string name="island_compat_warning_msg">تطبيق Island 6.4.2 يتطلب نظام أندرويد 7.0 (API 24) أو أحدث. إصدار جهازك هو %1$s. يمكنك الاعتماد على ميزة (بيئة العمل المباشرة Native DPC) أو تصفير البصمة يدوياً.</string>
+    <string name="island_saved_to_downloads_title">تم الحفظ بنجاح 💾</string>
+    <string name="island_saved_to_downloads_msg">تم حفظ ملف Island_6.4.2.apk في:\n%1$s\n\nيمكنك الآن تثبيته يدوياً عبر تطبيق مدير الملفات (My Files / File Manager) ثم مجلد التنزيلات.</string>
+    <string name="btn_open_downloads">فتح مجلد التنزيلات</string>
+
+    <!-- Work Profile Section -->
+    <string name="work_profile_title">🛡️ بيئة العمل المعزولة (Work Profile)</string>
+    <string name="work_profile_badge_label">البيئة الحالية:</string>
+    <string name="work_profile_status_personal">الملف الشخصي الأساسي (Personal)</string>
+    <string name="work_profile_status_work">🟢 داخل ملف العمل المعزول (Isolated Work Profile)</string>
+    <string name="work_profile_desc">بيئة العمل المعزولة تمنحك مساحة أندرويد مستقلة تماماً داخل هاتفك مع **معرّف Android ID جديد** وحسابات Google منفصلة كلياً.\n\nعند إنشاء حسابات زبائنك من داخل بيئة العمل، لا تستطيع Google ربطها بحساباتك الشخصية!</string>
+    <string name="btn_setup_work_profile">🚀 إعداد ملف العمل المباشر (Native DPC)</string>
+    <string name="btn_manage_work_profile">⚙️ إعدادات / حذف بيئة العمل (Settings)</string>
+    <string name="btn_shelter_island">📦 أدوات العزل الأخرى (Shelter)</string>
+    <string name="work_profile_setup_failed">الجهاز لم يتمكن من بدء الإعداد التلقائي، ننصحك باستخدام تطبيق Island 6.4.2 المدمج بالأسفل للإنشاء الفوري.</string>
+    <string name="work_profile_dialog_title">أدوات العزل المساعدة</string>
+    <string name="work_profile_dialog_content">تطبيق Island 6.4.2 مدمج جاهز في نهاية الصفحة، وتطبيق Shelter أداة بديلة أخرى.\n\nيمكنك فتح أو تثبيت Shelter أو Island:</string>
+    <string name="btn_open_shelter">فتح / تثبيت Shelter</string>
+    <string name="btn_open_island">فتح / تثبيت Island</string>
+
+    <!-- Steps -->
+    <string name="workflow_title">خطوات تصفير بصمة الجهاز (بدون روت)</string>
+    <string name="workflow_subtitle">اتبع الخطوات بالترتيب لتجديد المعرفات وتخطي فحص الهاتف</string>
+
+    <!-- Step 1: GSF -->
+    <string name="step1_title">الخطوة 1: إطار خدمات Google (GSF)</string>
+    <string name="step1_desc">هذا التطبيق هو المسؤول عن حفظ معرّف GSF ID الذي تتعرف به جوجل على جهازك.\n\nالمطلوب داخل الصفحة:\n1. اضغط "إيقاف إجباري" (Force Stop)\n2. اضغط "مكان التخزين" ثم "مسح البيانات" (Clear Data)</string>
+    <string name="step1_btn">فتح إعدادات GSF مباشرة</string>
+
+    <!-- Step 2: Google Play Services -->
+    <string name="step2_title">الخطوة 2: خدمات Google Play</string>
+    <string name="step2_desc">المطلوب داخل الصفحة:\n1. اضغط "إيقاف إجباري" (Force Stop)\n2. اضغط "مكان التخزين" -> "إدارة المساحة"\n3. اضغط "مسح جميع البيانات" (Clear All Data)</string>
+    <string name="step2_btn">فتح إعدادات Google Play Services</string>
+
+    <!-- Step 3: Google Play Store -->
+    <string name="step3_title">الخطوة 3: متجر Google Play</string>
+    <string name="step3_desc">المطلوب داخل الصفحة:\n1. اضغط "إيقاف إجباري" (Force Stop)\n2. اضغط "مكان التخزين" ثم "مسح البيانات" و "مسح الذاكرة المؤقتة"</string>
+    <string name="step3_btn">فتح إعدادات متجر Google Play</string>
+
+    <!-- Step 4: Advertising ID -->
+    <string name="step4_title">الخطوة 4: حذف / إعادة تعيين المعرّف الإعلاني</string>
+    <string name="step4_desc">لحذف ملف التتبع الإعلاني الخاص بنشاطك السابق:\nالمطلوب: اضغط "حذف المعرّف الإعلاني" (Delete Advertising ID) أو إعادة ضبطه.</string>
+    <string name="step4_btn">فتح إعدادات المعرّف الإعلاني</string>
+
+    <!-- Step 5: Reboot -->
+    <string name="step5_title">الخطوة 5: إعادة تشغيل الهاتف (إجباري)</string>
+    <string name="step5_desc">عند إعادة تشغيل الهاتف، سيقوم نظام أندرويد تلقائياً بإنشاء معرّف GSF ID جديد كلياً لأن البيانات السابقة قد حُذفت.</string>
+    <string name="step5_btn">تذكير بإعادة التشغيل</string>
+
+    <!-- Step 6: Create Account -->
+    <string name="step6_title">الخطوة 6: إنشاء حساب Google الآن</string>
+    <string name="step6_desc">بعد إعادة التشغيل والاتصال عبر بيانات الهاتف (وليس Wi-Fi إن أمكن)، ابدأ بإنشاء الحساب.</string>
+    <string name="step6_btn">بدء إنشاء حساب Google جديد</string>
+
+    <!-- Quick shortcuts -->
+    <string name="quick_tools_title">أدوات واختصارات سريعة إضافية</string>
+    <string name="btn_multiple_users">إعدادات المستخدمين المتعددين (Guest / User)</string>
+    <string name="btn_network_settings">إعدادات شبكة الجوال (بيانات الهاتف)</string>
+    <string name="btn_all_apps">إدارة جميع التطبيقات</string>
+    <string name="btn_accounts_sync">إدارة الحسابات والمزامنة</string>
+
+    <!-- Tips Dialog -->
+    <string name="tips_title">💡 نصائح ذهبية لنجاح العملية</string>
+    <string name="tips_content">• استخدم تطبيق Island 6.4.2 المدمج بالأسفل (في نهاية التطبيق) لإنشاء بيئة معزولة ونظيفة واستنساخ متجر Play فيها وتخطي فحص رقم الهاتف.\n\n• استخدم دائماً بيانات الهاتف (4G/5G) عند إنشاء الحساب، وتجنب الـ Wi-Fi والـ VPN تماماً.\n\n• إذا كان هاتفك يدعم (المجلد الآمن Secure Folder) في سامسونج أو (الواجهة الثانية Second Space) في شاومي، فأنشئ الحساب من داخلها.\n\n• عند إنشاء الحساب، اختر تاريخ ميلاد يجعل العمر فوق 21 سنة.</string>
+    <string name="btn_show_tips">عرض النصائح الذهبية</string>
+    
+    <string name="app_not_found">تعذر فتح صفحة التطبيق مباشرة، ربما غير مثبت أو مسار النظام مختلف.</string>
+    <string name="reboot_tip_title">إعادة التشغيل</string>
+    <string name="reboot_tip_message">يرجى الضغط مطولاً على زر الطاقة بجهازك واختيار "إعادة التشغيل" (Restart) لتطبيق التغييرات وتوليد معرّف جديد.</string>
+    <string name="ok">حسناً</string>
+</resources>
